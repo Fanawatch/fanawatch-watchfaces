@@ -3,49 +3,115 @@
   "name": "Hugo BOSS",
   "version": "1.0.0",
   "layout": "whistler-digital",
-  "complications": {
-    "top-left": {
-      "type": "logo",
-      "style": "circular",
-      "imageURL": "assets/boss-logo.png"
-    },
-    "bottom-left": {
-      "type": "metric",
-      "style": "circular",
-      "icon": "figure.walk",
-      "iconColor": "#FFFFFF",
-      "iconImageURL": "assets/steps-icon.png",
-      "dataSource": "healthkit.steps",
-      "label": "Steps"
-    },
-    "bottom-center": {
-      "type": "metric",
-      "style": "circular",
-      "icon": "battery.100",
-      "iconColor": "#FFFFFF",
-      "iconImageURL": "assets/battery-icon.png",
-      "dataSource": "device.battery",
-      "label": "Battery"
-    },
-    "bottom-right": {
-      "type": "metric",
-      "style": "circular",
-      "icon": "heart.fill",
-      "iconColor": "#FFFFFF",
-      "iconImageURL": "assets/hrm-icon.png",
-      "dataSource": "healthkit.heartrate",
-      "label": "Heart Rate"
-    },
-    "center": {
-      "type": "logo",
-      "style": "rectangular",
-      "imageURL": "assets/boss-center.png"
+
+  "theme": {
+    "backgroundColor": "#000000",
+    "primaryColor": "#FFFFFF",
+    "accentColor": "#A98455",
+    "font": {
+      "family": "AvertaPE-Bold",
+      "url": "assets/AvertaPE-Bold.ttf"
     }
   },
+
+  "complications": {
+    "top-left": {
+      "type": "image",
+      "family": "accessoryCircular",
+      "content": {
+        "imageURL": "assets/boss-logo.png",
+        "contentMode": "scaledToFit"
+      },
+      "background": "#000000"
+    },
+
+    "bottom-left": {
+      "type": "metric",
+      "family": "accessoryCircular",
+      "content": {
+        "layout": "vertical",
+        "icon": {
+          "imageURL": "assets/steps-icon.png",
+          "width": 24,
+          "height": 24,
+          "tintColor": "#A98455"
+        },
+        "text": {
+          "dataSource": "healthkit.steps",
+          "placeholder": "2891",
+          "fontFamily": "AvertaPE-Bold",
+          "fontSize": 16,
+          "color": "#FFFFFF",
+          "minimumScaleFactor": 0.5
+        }
+      },
+      "background": "#000000"
+    },
+
+    "bottom-center": {
+      "type": "metric",
+      "family": "accessoryCircular",
+      "content": {
+        "layout": "vertical",
+        "icon": {
+          "imageURL": "assets/battery-icon.png",
+          "width": 24,
+          "height": 24,
+          "tintColor": "#A98455"
+        },
+        "text": {
+          "dataSource": "device.battery",
+          "format": "{value}%",
+          "placeholder": "86%",
+          "fontFamily": "AvertaPE-Bold",
+          "fontSize": 16,
+          "color": "#FFFFFF",
+          "minimumScaleFactor": 0.5
+        }
+      },
+      "background": "#000000"
+    },
+
+    "bottom-right": {
+      "type": "metric",
+      "family": "accessoryCircular",
+      "content": {
+        "layout": "vertical",
+        "icon": {
+          "imageURL": "assets/hrm-icon.png",
+          "width": 24,
+          "height": 24,
+          "tintColor": "#A98455"
+        },
+        "text": {
+          "dataSource": "healthkit.heartrate",
+          "placeholder": "96",
+          "fontFamily": "AvertaPE-Bold",
+          "fontSize": 16,
+          "color": "#FFFFFF",
+          "minimumScaleFactor": 0.5
+        }
+      },
+      "background": "#000000"
+    },
+
+    "center": {
+      "type": "image",
+      "family": "accessoryRectangular",
+      "content": {
+        "imageURL": "assets/boss-center.png",
+        "contentMode": "scaledToFill",
+        "cornerRadius": 4
+      },
+      "background": "#000000"
+    }
+  },
+
   "metadata": {
     "author": "Fanawatch",
     "category": "luxury",
-    "tags": ["boss", "hugo", "luxury", "classic"],
-    "price": 9.99
+    "tags": ["boss", "hugo", "luxury", "classic", "gold"],
+    "price": 9.99,
+    "description": "BE YOUR OWN BOSS - Premium luxury watchface"
   }
 }

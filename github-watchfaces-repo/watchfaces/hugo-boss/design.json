@@ -1,0 +1,51 @@
+{
+  "id": "hugo_boss_classic",
+  "name": "Hugo BOSS",
+  "version": "1.0.0",
+  "layout": "whistler-digital",
+  "complications": {
+    "top-left": {
+      "type": "logo",
+      "style": "circular",
+      "imageURL": "assets/boss-logo.png"
+    },
+    "bottom-left": {
+      "type": "metric",
+      "style": "circular",
+      "icon": "figure.walk",
+      "iconColor": "#FFFFFF",
+      "iconImageURL": "assets/steps-icon.png",
+      "dataSource": "healthkit.steps",
+      "label": "Steps"
+    },
+    "bottom-center": {
+      "type": "metric",
+      "style": "circular",
+      "icon": "battery.100",
+      "iconColor": "#FFFFFF",
+      "iconImageURL": "assets/battery-icon.png",
+      "dataSource": "device.battery",
+      "label": "Battery"
+    },
+    "bottom-right": {
+      "type": "metric",
+      "style": "circular",
+      "icon": "heart.fill",
+      "iconColor": "#FFFFFF",
+      "iconImageURL": "assets/hrm-icon.png",
+      "dataSource": "healthkit.heartrate",
+      "label": "Heart Rate"
+    },
+    "center": {
+      "type": "logo",
+      "style": "rectangular",
+      "imageURL": "assets/boss-center.png"
+    }
+  },
+  "metadata": {
+    "author": "Fanawatch",
+    "category": "luxury",
+    "tags": ["boss", "hugo", "luxury", "classic"],
+    "price": 9.99
+  }
+}

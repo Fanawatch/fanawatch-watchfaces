@@ -1,15 +1,24 @@
 {
-  "version": "1.0.0",
-  "lastUpdated": "2025-12-09T00:00:00Z",
-  "watchfaces": [
-    {
-      "id": "hugo_boss_classic",
-      "name": "Hugo BOSS",
-      "previewURL": "watchfaces/hugo-boss/preview.png",
-      "designURL": "watchfaces/hugo-boss/design.json",
-      "category": "luxury",
-      "price": 9.99,
-      "featured": true
-    }
-  ]
-}
+    "version": "1.0.0",
+    "lastUpdated": "2025-12-09T00:00:00Z",
+    "watchfaces": [
+      {
+        "id": "hugo_boss_classic",
+        "name": "Hugo BOSS",
+        "previewURL": "watchfaces/hugo-boss/preview.png",
+        "designURL": "watchfaces/hugo-boss/design.json",
+        "category": "luxury",
+        "price": 9.99,
+        "featured": true
+      },
+      {
+        "id": "test_simple",
+        "name": "Test Simple",
+        "previewURL": "watchfaces/test-simple/preview.png",
+        "designURL": "watchfaces/test-simple/design.json",
+        "category": "test",
+        "price": 0,
+        "featured": false
+      }
+    ]
+  }

@@ -1,0 +1,54 @@
+{
+  "id": "modular_duo_lab",
+  "name": "Duo Lab",
+  "version": "1.0.0",
+  "layout": "modular-duo",
+
+  "theme": {
+    "backgroundColor": "#000000",
+    "primaryColor": "#FFFFFF",
+    "accentColor": "#00C853"
+  },
+
+  "complications": {
+    "top-left": {
+      "type": "image",
+      "family": "accessoryCircular",
+      "content": {
+        "imageURL": "assets/logo.png",
+        "contentMode": "scaledToFit"
+      },
+      "background": "#000000"
+    },
+
+    "center": {
+      "type": "image",
+      "family": "accessoryRectangular",
+      "content": {
+        "imageURL": "assets/center-banner.png",
+        "contentMode": "scaledToFill",
+        "cornerRadius": 4
+      },
+      "background": "#1A1A1A"
+    },
+
+    "bottom": {
+      "type": "image",
+      "family": "accessoryRectangular",
+      "content": {
+        "imageURL": "assets/bottom-banner.png",
+        "contentMode": "scaledToFill",
+        "cornerRadius": 4
+      },
+      "background": "#1A1A1A"
+    }
+  },
+
+  "metadata": {
+    "author": "Fanawatch Lab",
+    "category": "lab",
+    "tags": ["lab", "modular-duo", "test"],
+    "price": 0.00,
+    "description": "Lab watchface for testing Modular Duo layout"
+  }
+}

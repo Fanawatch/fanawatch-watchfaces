@@ -19,6 +19,15 @@
       "category": "test",
       "price": 0,
       "featured": false
+    },
+    {
+      "id": "modular_duo_lab",
+      "name": "Duo Lab",
+      "previewURL": "watchfaces/modular-duo-lab/preview.png",
+      "designURL": "watchfaces/modular-duo-lab/design.json",
+      "category": "lab",
+      "price": 0,
+      "featured": false
     }
   ]
 }

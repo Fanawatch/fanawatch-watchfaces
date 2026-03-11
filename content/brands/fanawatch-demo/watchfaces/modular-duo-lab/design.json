@@ -1,6 +1,6 @@
 {
   "id": "modular_duo_lab",
-  "name": "Duo Lab",
+  "name": "AUGUSTO 22",
   "version": "1.0.0",
   "layout": "modular-duo",
 
@@ -48,7 +48,7 @@
     "author": "Fanawatch Lab",
     "category": "lab",
     "tags": ["lab", "modular-duo", "test"],
-    "price": 0.00,
+    "price": 9.99,
     "description": "Lab watchface for testing Modular Duo layout"
   }
 }

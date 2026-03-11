@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2025-12-09T00:00:00Z",
+  "lastUpdated": "2026-03-11T19:00:00Z",
   "watchfaces": [
     {
       "id": "hugo_boss_classic",
@@ -22,11 +22,11 @@
     },
     {
       "id": "modular_duo_lab",
-      "name": "Duo Lab",
+      "name": "AUGUSTO 22",
       "previewURL": "watchfaces/modular-duo-lab/preview.png",
       "designURL": "watchfaces/modular-duo-lab/design.json",
       "category": "lab",
-      "price": 0,
+      "price": 9.99,
       "featured": false
     }
   ]
